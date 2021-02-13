@@ -1,0 +1,46 @@
+{
+	"movies" : [
+		{
+			"title" : "O segredo dos Animais",
+			"img" : "http://br.web.img3.acsta.net/medias/nmedia/18/94/12/17/20304560.jpg",
+			"genre" : "Animação - Comédia",
+			"sinopse" : "O touro Otis gosta de cantar e tocar como todos os outros animais do celeiro, quando o agricultor está fora. No entanto, o bovino despreocupado deve logo encontrar coragem para ser um líder quando, inesperadamente, ele se encontra em uma posição de grande responsabilidade.",
+			"age" : "Livre para todos os públicos."
+
+		},
+			
+		{
+			"title" : "Deu a louca na Chapeuzinho",
+			"img" : "https://i.pinimg.com/originals/db/8c/07/db8c075c9ba822c6f22fff8aa518e608.jpg",
+			"genre" : "Animação - Comédia",
+			"sinopse" : "A paz da floresta é abalada com o roubo de um livro de receitas. Os suspeitos: Chapeuzinho Vermelho, Lobo Mau, a Vovó e o Lenhador contam, cada um, uma história diferente, levando o chefe Grizzly e o detetive Bill Stork a investigar a verdade.",
+			"age" : "Livre para todos os públicos."
+		},
+
+		{
+			"title" : "Por água abaixo",
+			"img" : "http://br.web.img3.acsta.net/c_310_420/medias/nmedia/18/90/35/41/20092941.jpg",
+			"genre" : "Animação - Comédia",
+			"sinopse" : "Roddy é um ratinho acostumado a um bairro luxuoso de Londres. Sem querer, ele dá uma descarga infeliz e acaba nos esgotos, onde terá de aprender a viver de uma forma completamente diferente.",
+			"age" : "Livre para todos os públicos."
+		},
+
+		{
+			"title" : "Madagascar",
+			"img" : "http://br.web.img2.acsta.net/medias/nmedia/18/91/54/02/20150796.jpg",
+			"genre" : "Animação - Comédia",
+			"sinopse" : "O leão Alex é o rei da selva urbana, a principal atração no zoológico de Nova York. Ele e seus melhores amigos - a zebra Marty, a girafa Melman e a hipopótamo fêmea Gloria - sempre viveram em cativeiro, felizes, com refeições regulares e um público para adorá-los. No entanto, Marty quer explorar o mundo e foge com a ajuda dos pinguins.",
+			"age" : "Livre para todos os públicos."
+		},
+
+		{
+			"title" : "Os sem floresta",
+			"img" : "https://cdn.fstatic.com/media/movies/covers/2019/01/44389_f1.jpg",
+			"genre" : "Animação - Comédia",
+			"sinopse" : "Animais de uma floresta acordam do período de hibernação e descobrem que têm vários vizinhos humanos que vivem nas proximidades. Inicialmente, eles ficam com medo da novidade, mas, com o tempo, o guaxinim oportunista RJ ensina os humanos a explorar as maravilhas comestíveis que deixam para trás.",
+			"age" : "Livre para todos os públicos."
+		},
+
+	]
+    
+}

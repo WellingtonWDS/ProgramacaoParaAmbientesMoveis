@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  </head>
+
+  <body style="margin: 0 auto; margin-top: 2%; width: 80%;">
+  	<div class="content">
+  		<h1 align="center">MEUS FILMES PREFERIDOS</h1>
+  		<button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black">Abrir Descrição</button>
+
+
+  		<div id="id01" class="w3-modal">
+	    <div class="w3-modal-content">
+	      <div class="w3-container">
+	        <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+	        <div>
+	        	<h3 align="center">Esses são alguns dos filmes que marcaram minha infância!<br> Assistia sempre no meu DVD.</h3>
+		        <script type="text/javascript">
+			    	var dados = JSON.parse('[{"title" : "O segredo dos Animais", "genre" : "Animação - Comédia", "sinopse" : "O touro Otis gosta de cantar e tocar como todos os outros animais do celeiro, quando o agricultor está fora. No entanto, o bovino despreocupado deve logo encontrar coragem para ser um líder quando, inesperadamente, ele se encontra em uma posição de grande responsabilidade."}, {"title" : "Deu a louca na Chapeuzinho", "genre" : "Animação - Comédia", "sinopse" : "A paz da floresta é abalada com o roubo de um livro de receitas. Os suspeitos: Chapeuzinho Vermelho, Lobo Mau, a Vovó e o Lenhador contam, cada um, uma história diferente, levando o chefe Grizzly e o detetive Bill Stork a investigar a verdade."}, {"title" : "Por água abaixo", "genre" : "Animação - Comédia", "sinopse" : "Roddy é um ratinho acostumado a um bairro luxuoso de Londres. Sem querer, ele dá uma descarga infeliz e acaba nos esgotos, onde terá de aprender a viver de uma forma completamente diferente."}, {"title" : "Madagascar", "genre" : "Animação - Comédia", "sinopse" : "O leão Alex é o rei da selva urbana, a principal atração no zoológico de Nova York. Ele e seus melhores amigos - a zebra Marty, a girafa Melman e a hipopótamo fêmea Gloria - sempre viveram em cativeiro, felizes, com refeições regulares e um público para adorá-los. No entanto, Marty quer explorar o mundo e foge com a ajuda dos pinguins."}, {"title" : "Os sem floresta", "genre" : "Animação - Comédia", "sinopse" : "Animais de uma floresta acordam do período de hibernação e descobrem que têm vários vizinhos humanos que vivem nas proximidades. Inicialmente, eles ficam com medo da novidade, mas, com o tempo, o guaxinim oportunista RJ ensina os humanos a explorar as maravilhas comestíveis que deixam para trás."}]');
+
+			    	dados.forEach( function(movie) {
+			    		document.body.innerHTML += "<h1 style=\"margin-top: 10%\">"+movie.title+"</h1>"+ "<p>"+movie.genre+"</p>"+ "<p>"+movie.sinopse+"</p>"
+			    	});
+			    </script>
+			    </div>
+		      </div>
+		    </div>
+		  </div>
+    </div>
+  </body>
+
+</html>
